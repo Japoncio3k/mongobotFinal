@@ -15,6 +15,15 @@ function teste(string){
 	console.log(retorno)
 }
 */
+const express = require('express')
+const path = require('path')
+const PORT = process.env.PORT || 5000
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.render('pages/index'))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 const Discord = require('discord.js');
 var peixes={
     'Lixo':{vara:1,pesoMin:75,pesoMax:450,multiplicador:0.0001,chance:200},
