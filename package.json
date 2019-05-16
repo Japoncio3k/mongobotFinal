@@ -21,9 +21,11 @@
     },
     "dependencies": {
         "discord.js": "^11.5.0",
+        "express": "^4.16.4",
         "node-fetch": "^2.6.0",
         "node-pre-gyp": "^0.13.0",
-        "xmlhttprequest": "^1.8.0",
-        "canvas": "^2.1.0"
+        "path": "^0.12.7",
+        "canvas": "^2.1.0",
+        "xmlhttprequest": "^1.8.0"
     }
 }
