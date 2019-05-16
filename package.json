@@ -1,0 +1,28 @@
+{
+    "name": "MongoBot",
+    "version": "1.0.0",
+    "description": "teste",
+    "main": "bot.js",
+    "author": "Gustavo Kamihara",
+    "keyword": [
+        "bot",
+        "fishing",
+        "discord",
+        "anime"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Japoncio3k/mongobot6"
+    },
+    "engines": {
+        "node": "10.15.0",
+        "npm": "6.4.1"
+    },
+    "dependencies": {
+        "discord.js": "^11.5.0",
+        "node-fetch": "^2.6.0",
+        "node-pre-gyp": "^0.13.0",
+        "xmlhttprequest": "^1.8.0",
+        "canvas": "^2.1.0"
+    }
+}
